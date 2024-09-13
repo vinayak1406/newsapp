@@ -16,7 +16,7 @@ Responsive design using Bootstrap.
 
 Getting Started
 Clone the Repository:
-git clone https://github.com/your-username/newsapp.git
+git clone https://github.com/Vinayak/newsapp.git
 cd newsapp
 
 Install Dependencies:
@@ -31,7 +31,7 @@ Run the App:
 npm start
 
 Open in Browser: Open your browser and navigate to http://localhost:5173.
-If you want to chang the port number then change it in vite.config.js and add server:{ port:3000} under plugins
+If you want to change the port number then change it in vite.config.js and add server:{ port:3000} under plugins
 Project Structure
 src/
 components/: Contains React components (e.g., NewsItem, NewsList).
