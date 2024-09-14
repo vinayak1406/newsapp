@@ -20,7 +20,7 @@ const NewsItem = ({ title, description, image, newsUrl, author, date, source }) 
           <p className="card-text">{description}</p>
           <p className="card-text">
             <small className="text-muted">
-              By {!author ? "Unknown" : author} on{" "}
+              By {author} on{" "}
               {new Date(date).toGMTString()}
             </small>
           </p>
